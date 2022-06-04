@@ -55,17 +55,17 @@ const Navbar = () => {
         }`}
       >
         <div>
-          <a href={DESIGN_LINK} rel="noreferrer" target="_blank">
+          <a href={DESIGN_LINK} rel="noreferrer" target="_blank" onClick={handleToggleMobileNav}>
             DESIGN
           </a>
         </div>
         <div>
-          <a href={API_LINK} rel="noreferrer" target="_blank">
+          <a href={API_LINK} rel="noreferrer" target="_blank" onClick={handleToggleMobileNav}>
             API
           </a>
         </div>
         <div>
-          <a href={GITHUB_LINK} rel="noreferrer" target="_blank">
+          <a href={GITHUB_LINK} rel="noreferrer" target="_blank" onClick={handleToggleMobileNav}>
             GITHUB
           </a>
         </div>
