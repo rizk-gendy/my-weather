@@ -54,18 +54,11 @@ Weather greatly affects our life , wherever we are now , we need to know what to
       
   - city Page : 
       it shows :
-      - Search Bar
-      - Top 100 Cryptocurrencies
+      - The weather Status for the selected City 
+      - Charts and Historical forecast Data
+      - 
 
-  - Loading Page : 
-      it shows :
-      - Loading Moon during getiing Dafat from Api's
-      
-  - Error Page : 
-      it shows :
-      - The Error starus in case of error 
-     
-      
+
 
     
 
@@ -105,36 +98,6 @@ Weather greatly affects our life , wherever we are now , we need to know what to
 
 
 
-## Project Files
 
-```bash
-
-├── README.md - This file.
-├── package.lock.json        
-├── .gitigore 
-├── Node_modules            # all app packages
-├── package.json            # npm package manager file.
-├── public           
-│   └── index.html          # The file include the HTML of the App
-└── src
-    ├── App.css             # The file include  CSS Styles for the App
-    ├── index.js            # the root of your app. 
-    ├── components          # The Folder includes all appcomponents
-    │   ├── Cryptocurrencies.jsx
-    │   ├── CryptoDetails.jsx
-    │   ├── Exchanges.jsx
-    │   ├── Homepage.jsx
-    │   ├── index.js
-    │   ├── LineChart.jsx
-    │   ├── Loader.jsx
-    │   ├── Navbar.jsx
-    │   └── News.jsx
-    ├── images              # Folder including the App images     
-    │   └── cryptocurrency.png       
-    └── services            # Folder including the App API's Endpoints
-       ├── cryptoApi.js   
-       └── cryptoNewsApi.js      
-    
-   ```bash
     
     
