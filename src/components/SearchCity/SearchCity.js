@@ -14,7 +14,7 @@ export const SearchCity = ({ item }) => {
         method: "GET",
         url: "http://api.worldweatheronline.com/premium/v1/weather.ashx",
         params: {
-          key: "c229112c80b34f38924200812220306",
+          key: "7724c3c5d11347c097391911222705",
           q: item,
           includelocation: "yes",
           date_format: "iso8601",
