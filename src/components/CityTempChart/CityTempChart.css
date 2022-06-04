@@ -1,0 +1,87 @@
+.temp-chart-container {
+  height: 38%;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  padding: 0px 5px;
+}
+
+.temp-chart-container:hover {
+  -webkit-box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.days-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding: 0px 10px;
+  margin-top: 10px;
+}
+.day-container {
+  height: 40px;
+  padding: 15px 15px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 10px;
+  margin-bottom: 5px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.day-container:hover {
+  background-color: rgb(129, 143, 252);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  color: white;
+}
+
+.chart-heading {
+  font-size: 12px;
+  margin-top: 2px;
+  color: #787878;
+}
+
+@media screen and (max-width: 700px) {
+  .day-container {
+    height: 30px;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 15px 0px;
+  }
+
+  .chart-heading {
+    font-size: 9px;
+    margin-top: 2px;
+    color: #787878;
+  }
+}
+
+.status-icon {
+  height: 30px;
+  border-radius: 15px;
+  margin: 3px 0px;
+}
+
+@media screen and (max-width: 700px) {
+  .day-container {
+    height: 30px;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 15px 6px;
+    font-size: 9px;
+  }
+  .status-icon {
+    height: 20px;
+    border-radius: 15px;
+  }
+}

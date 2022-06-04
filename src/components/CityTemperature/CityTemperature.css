@@ -1,0 +1,40 @@
+.citytemp-container {
+  background-color: white;
+  color: gray;
+  width: 320px;
+  height: 130px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px;
+  text-decoration: none;
+}
+.citytemp-container:hover {
+  background-color: #818ffc;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: white;
+}
+
+.input {
+  top: 50px;
+  position: absolute;
+  width: 290px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  padding-left: 8px;
+}
+
+.scrollable-cities {
+  margin-top: 85px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}

@@ -1,0 +1,49 @@
+.week-details {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 25%;
+  border-radius: 20px;
+  width: 100%;
+  color: gray;
+}
+
+.day-icon {
+  height: 40px;
+  border-radius: 10px;
+}
+
+.day-weather-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.day-weather-container p {
+  font-size: 12px;
+  color: #212121;
+}
+
+@media screen and (max-width: 700px) {
+  .week-details {
+    width: 90%;
+  }
+
+  .day-icon {
+    height: 20px;
+    border-radius: 5px;
+  }
+
+  .day-weather-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .day-weather-container p {
+    font-size: 8px;
+    color: #212121;
+  }
+}

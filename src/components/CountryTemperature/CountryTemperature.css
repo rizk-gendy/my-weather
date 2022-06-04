@@ -1,0 +1,30 @@
+.temperature-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #818ffc;
+  height: 35%;
+  color: white;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.temperature-container h1 {
+  font-size: 25px;
+}
+.temperature-container p {
+  font-size: 80px;
+}
+
+@media screen and (max-width: 700px) {
+  .temperature-container h1 {
+    font-size: 15px;
+  }
+  .temperature-container p {
+    font-size: 40px;
+  }
+
+  .temperature-container {
+    width: 90%;
+  }
+}

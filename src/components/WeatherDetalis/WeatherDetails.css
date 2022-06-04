@@ -1,0 +1,56 @@
+.details-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  height: 25%;
+  border-radius: 20px;
+  width: 100%;
+  color: gray;
+}
+
+.icon {
+  height: 80px;
+  border-radius: 20px;
+}
+
+.details .day-name {
+  font-size: 20px;
+  color: #787878;
+}
+.details .day-status {
+  font-size: 30px;
+  color: #212121;
+  margin: 8px 0px;
+}
+.details .day-average {
+  font-size: 20px;
+  color: #787878;
+}
+
+@media screen and (max-width: 700px) {
+  .details-container {
+    width: 90%;
+  }
+
+  .icon {
+    height: 40px;
+    border-radius: 10px;
+  }
+
+  .details .day-name {
+    font-size: 10px;
+    color: #787878;
+  }
+  .details .day-status {
+    font-size: 20px;
+    color: #212121;
+    margin: 8px 0px;
+  }
+  .details .day-average {
+    font-size: 10px;
+    color: #787878;
+  }
+}

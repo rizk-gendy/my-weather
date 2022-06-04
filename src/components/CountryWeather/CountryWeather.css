@@ -1,0 +1,21 @@
+.country-weather-container {
+  height: 100%;
+  position: relative;
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  margin-left: 15px;
+}
+
+.country-weather-container:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .country-weather-container {
+    margin-left: 0px;
+  }
+}

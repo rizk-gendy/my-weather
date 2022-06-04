@@ -1,0 +1,62 @@
+.sun-details-container {
+  height: 100%;
+  background-color: white;
+  width: 45%;
+  border-radius: 20px;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sun-details-container:hover {
+  -webkit-box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.right,
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #707070;
+}
+
+.value {
+  color: #212121;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.logo-heading {
+  margin-bottom: 10px;
+}
+
+.sun-logo {
+  font-size: 40px;
+  color: #818ffc;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .right,
+  .left {
+    font-size: 10px;
+  }
+
+  .sun-logo {
+    font-size: 20px;
+    color: #818ffc;
+    margin-bottom: 5px;
+  }
+  .value {
+    color: #212121;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .logo-heading {
+    font-size: 10px;
+  }
+}
