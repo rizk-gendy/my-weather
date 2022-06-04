@@ -21,8 +21,7 @@ Weather greatly affects our life , wherever we are now , we need to know what to
 ## Project Image :
 
 
-![screencapture-localhost-3000-2022-03-23-21_23_55](https://user-images.githubusercontent.com/80922036/159779873-fe6ad503-18dc-4aca-b8b6-5c80d9662a7e.png)
-
+![image](https://user-images.githubusercontent.com/80922036/172007787-e7eeacec-9a19-4443-9350-94a990d658ee.png)
 
 
 
