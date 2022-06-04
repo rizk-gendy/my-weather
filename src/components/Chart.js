@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import * as d3 from "d3";
 function AreaChart({ daysArray }) {
   const chartWidth = 525;
-  const chartHeight = 200;
+  const chartHeight = 180;
   const padding = 20;
   const xPadding = -5;
   const svg = useRef();
@@ -21,13 +21,13 @@ function AreaChart({ daysArray }) {
           return d.value2;
         }),
       ])
-      .range([chartHeight - padding, 0 + padding]);
+      .range([chartHeight - padding, 0 + 50]);
 
     const area = d3
       .area()
       .x((d) => xAxis(d.value1))
       .y(yAxis(0))
-      .y1((d) => yAxis(d.value2))
+      .y1((d) => yAxis(d.value2-7))
       .curve(d3.curveMonotoneX);
 
     d3.select(svg.current)
@@ -43,7 +43,7 @@ function AreaChart({ daysArray }) {
   }, [daysArray]);
 
   return (
-    <svg id="chart" ref={svg} viewBox="0 0 500 150">
+    <svg   id="chart" ref={svg} viewBox="0 0 500 150">
       <path d="" fill="none" stroke="white" strokeWidth="2" />
     </svg>
   );
